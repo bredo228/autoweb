@@ -1,7 +1,7 @@
 services:
   autoweb:
     container_name: autoweb
-    image: forge.localtoast.xyz/bredo/autoweb:latest
+    image: ghcr.io/bredo228/autoweb:latest
     environment:
       GIT_REPOSITORY: ""
       UPDATE_INTERVAL: 300 # 5 mins
