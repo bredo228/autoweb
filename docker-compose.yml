@@ -4,6 +4,7 @@ services:
     image: forge.localtoast.xyz/bredo/autoweb:latest
     environment:
       GIT_REPOSITORY: ""
+      UPDATE_INTERVAL: 300 # 5 mins
     ports:
       - "3000:3000"
     restart: on-failure:5

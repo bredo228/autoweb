@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/scripts/update.sh
+/scripts/autoupdate.sh &
 
 echo "Running httpd"
 
