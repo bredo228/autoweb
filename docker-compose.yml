@@ -2,6 +2,9 @@ services:
   autoweb:
     container_name: autoweb
     image: ghcr.io/bredo228/autoweb:latest
+    env_file:
+      - path: .env
+        required: false
     environment:
       GIT_REPOSITORY: ""
       UPDATE_INTERVAL: 300 # 5 mins
