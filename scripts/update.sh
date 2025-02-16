@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /srv/
+cd /srv/www/
 
 if [ "${PRIVATE_REPOSITORY}" = "true" ]; then
 	# Repository is private, treat it as such.	
