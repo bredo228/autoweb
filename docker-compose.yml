@@ -1,7 +1,7 @@
 services:
   autoweb:
     container_name: autoweb
-    image: ghcr.io/bredo228/autoweb:latest
+    image: ghcr.io/bredo228/autoweb:main
     env_file: .env
     ports:
       - "3000:3000"
