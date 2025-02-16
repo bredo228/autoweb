@@ -2,6 +2,6 @@
 
 /scripts/autoupdate.sh &
 
-echo "Running httpd"
+echo "Running lighttpd"
 
-httpd -f -v -p 3000 -h /srv
+lighttpd -D -f /config/lighttpd.conf
